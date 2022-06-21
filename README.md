@@ -22,6 +22,7 @@ Le projet se sépare en deux principales parties :
 La première étape va donc être de créer une base de données "epytodo" qui va elle même contenir 2 tables qui vont petre utile par la suite, à savoir, une table *user*, et une table *todo*.
 La table user contiendra les fields suivants : id, email, password, name, firstname et created_at.
 La table todo quand à elle disposera des fields : id, title, description, created_at, due_time, status et user_id.
+
 ---
 
 ## Fonctions Autorisées : 
