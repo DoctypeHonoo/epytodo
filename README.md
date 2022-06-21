@@ -19,7 +19,7 @@ Le projet se sépare en deux principales parties :
 - Créer une base de données MySQL
 - Créer un serveur web utilisant Node.js
 
-La première étape va donc être de créer une base de données "epytodo" qui va elle même contenir 2 tables qui vont petre utile par la suite, à savoir, une table *user*, et une table *todo*.
+La première étape va donc être de créer une base de données "epytodo" qui va elle même contenir 2 tables qui vont être utile par la suite, à savoir, une table *user*, et une table *todo*.
 
 La table user contiendra les fields suivants : id, email, password, name, firstname et created_at.
 
