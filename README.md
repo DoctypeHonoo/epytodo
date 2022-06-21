@@ -2,26 +2,22 @@
   <img src="https://user-images.githubusercontent.com/91092610/174886469-da089e92-588e-46c5-b7cc-76bd9b7e769a.png"/>
 </p>
 <h1 align="center">
-   Epytodo
+   EpyTodo
 </h1>
 
 ---
 
 ## Motivation : 
 
-L'**EvalExpr** est un des trois projets de début d'année à Epitech, ou nous apprenons à programmer une calculatrice qui permet de faire des opérations infini et de différente base. L'EvalExpr est le deuxième projet de cette liste et l'objectif est de reproduire une vrai calculatrice fonctionnelle.
+L'**EpyTodo** est un projet web de fin d'année à Epitech, devant se réaliser en duo. L'objectif du projet est de réalisé une TODO Liste en créant une api. Le projet se base uniquement sur le backend, le frontend étant considéré comme un bonus.
 
 ---
 
 ## Description :
 
-Le but de ce projet est de nous apprendre à gérer les priorités des opérations lors d'un calcul avec des chaînes de caractères. Il faut pouvoir gérer : 
-- Les additions "+"
-- Les soustractions "-"
-- Les multiplications "*"
-- Les divisions "/"
-- Les modulos "%"
-- Les parenthèses "()"
+Le projet se sépare en deux principales parties : 
+- Créer une base de données MySQL
+- Créer un serveur web utilisant Node.js
 
 ---
 
