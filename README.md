@@ -42,8 +42,3 @@ Etant donné que le projet n'est pas en C, le lancement du programme se fera com
 ```bash
 $ node src/index.js
 ```
-
----
-
-## Comment l'utiliser ? : 
-
