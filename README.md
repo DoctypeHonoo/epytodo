@@ -19,11 +19,14 @@ Le projet se sépare en deux principales parties :
 - Créer une base de données MySQL
 - Créer un serveur web utilisant Node.js
 
+La première étape va donc être de créer une base de données "epytodo" qui va elle même contenir 2 tables qui vont petre utile par la suite, à savoir, une table *user*, et une table *todo*.
+La table user contiendra les fields suivants : id, email, password, name, firstname et created_at.
+La table todo quand à elle disposera des fields : id, title, description, created_at, due_time, status et user_id.
 ---
 
 ## Fonctions Autorisées : 
 
-- write, malloc, ree
+- Toutes, il s'agit d'un projets en javascript.
 
 ---
 
@@ -31,23 +34,15 @@ Le projet se sépare en deux principales parties :
 
 Ouvrez un terminal et dirigez vous ou vous souhaitez que le projet soit installé, puis exécutez les commandes suivantes : 
 ```bash
-$ git clone git@github.com:DoctypeHonoo/evalexpr.git
-$ cd evalexpr
-$ make
+$ git clone git@github.com:DoctypeHonoo/epytodo.git
+$ cd epytodo
 ```
-Une fois compilé, le binaire se trouvera à la racine du projet, et il vous faudra l'utiliser comme ceci :
+Etant donné que le projet n'est pas en C, le lancement du programme se fera comme ceci :
 ```bash
-$ ./eval_expr expression_mathematique
+$ node src/index.js
 ```
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174883202-2c42347a-15dd-4f28-a24a-f04ae578b7ac.png"/>
-</p>
 
 ---
 
 ## Comment l'utiliser ? : 
 
-Mon EvalExpr fonctionne avaec tout les opérateurs (+, -, \*, /, %, "()"). Il suffit de donner votre opérations à exécuter dans la ligne d'exécution du binaire.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174884072-cdcd6308-4569-4056-9650-0175ebafa668.png"/>
-</p>
